@@ -19,8 +19,8 @@ GITHUB_PLATFORM = ["lutece-platform", "lutece_secteur-public"]
 
 def main():
     parser = argparse.ArgumentParser(
-        description=('Script permettant de migrer un composant générique de '
-                     + 'SVN vers GitHub')
+        description=('Script permettant de mettre à jour les licences sur '
+                     + 'tous les composants Lutece dans GitHub')
         )
 
     parser.add_argument(
